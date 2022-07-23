@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TileSliderFinal
+comment0.text=\r\n\ TODO\ update\ the\ header\ with\ your\ details.\r\n\ Write\ a\ description\ of\ JavaFX\ class\ Tile\ Slider\ here.\r\n\ This\ program\ will\ play\ a\ tile\ slider\ game\ with\ an\ image\ and\ 25\ tiles\ using\ JavaFx.\ The\ program\ will\ allow\ a\ user\ to\ manually\r\n\ shuffle\ their\ tiles,\ and\ will\ detect\ when\ they\ have\ correctly\ solved\ it.\ The\ program\ will\ also\ track\ their\ number\ of\ moves.\r\n\ @author\ (Sunny\ Jain)\r\n\ @version\ (Final\ Version\:\ April\ 21st,\ 2021)\r\n
+comment1.params=stage
+comment1.target=void\ start(javafx.stage.Stage)
+comment2.params=event
+comment2.target=void\ handle(javafx.scene.input.KeyEvent)
+comment3.params=event
+comment3.target=void\ handleKeyPress(javafx.scene.input.KeyEvent)
+comment4.params=event
+comment4.target=void\ buttonPressed(javafx.event.ActionEvent)
+comment4.text=\r\n\ This\ method\ will\ play\ multiple\ roles\ based\ on\ what\ the\ user\ clicks\ on\ the\ right\ panel\ in\ the\ application.\ It\ removes\ a\r\n\ random\ tile\ visially\ from\ pic,\ disables\ the\ "start\ solve"\ button\ once\ it\ is\ pressed,\ and\ resets\ the\ board\ using\ the\ \r\n\ right\ pic\ array\ as\ a\ reference.\ \r\n
+comment5.params=col\ row\ image
+comment5.target=void\ replaceTile(int,\ int,\ javafx.scene.image.Image)
+comment5.text=\r\n\ This\ method\ will\ replace\ an\ image\ in\ the\ gridPane\ with\ a\ new\ one\r\n
+numComments=6
